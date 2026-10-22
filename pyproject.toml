@@ -1,0 +1,27 @@
+[project]
+name = "hack4hack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shlok Choudhary", email = "shlokchoudhary22072007@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "astropy>=8.0.2",
+    "ipykernel>=7.4.0",
+    "lightgbm>=4.7.0",
+    "lightkurve>=2.6.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+]
+
+[project.scripts]
+hack4hack = "hack4hack:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"

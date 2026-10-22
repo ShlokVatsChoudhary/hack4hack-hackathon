@@ -1,0 +1,50 @@
+# =========================
+# Virtual Environment (uv)
+# =========================
+.venv/
+
+# =========================
+# Hackathon Data
+# =========================
+# Do not commit the 190MB+ datasets to Git
+data/
+*.npy
+*.csv
+*.npz
+
+# =========================
+# Submissions
+# =========================
+# Keep generated submission files local
+sample_submission.csv
+submission*.csv
+submission/
+
+# =========================
+# Saved Models & Weights
+# =========================
+*.pt
+*.pth
+*.h5
+*.pkl
+*.model
+*.joblib
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# IDEs and OS
+# =========================
+.vscode/
+.DS_Store
